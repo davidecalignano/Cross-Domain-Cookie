@@ -1,19 +1,21 @@
 /*
 * Developed by Davide Calignano
-* cookieHandler v1.0 [after header]
+* Cross-Domain-Cookie v1.0
 */
+
 
 var cookieHandler = (function () {
 
   return {
   	settings: {
   		cookieName: "CookieAgreed",
-  		linkPolicy: "http:///www.blogo.it/informativa-cookie",
+  		linkPolicy: "http:///www.domain.it/privacy-policy",
 		colorBox: 	"red",
 		colorText: 	"white",
 		text: 		"Questo sito utilizza cookie, anche di terze parti, per inviarti pubblicità e servizi in linea con le tue preferenze. Se vuoi saperne di più",
-		afterText: 	"Chiudendo questo banner, scorrendo questa pagina o cliccando qualunque suo elemento acconsenti all’uso dei cookie.",
 		textClick: 	"clicca qui",
+		afterText: 	"Chiudendo questo banner, scorrendo questa pagina o cliccando qualunque suo elemento acconsenti all’uso dei cookie.",
+		
   	},
 
     checkCookie: function (testThirdCookie) {

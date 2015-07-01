@@ -1,8 +1,7 @@
 /*
 * Developed by Davide Calignano
-* CrossCookie v2 [after header]
+* Cross-Domain-Cookie v1.0
 */
-
 
 function printScript(callback){
 	//create script
@@ -12,7 +11,6 @@ function printScript(callback){
     //Print script
 	var parentGuest = document.getElementsByTagName("body")[0];
 		parentGuest.appendChild(script);
-
 }
 
 
